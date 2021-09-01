@@ -9,7 +9,7 @@ function App() {
   const [categories, setCategories] = useState(allCategories);
 
   const filterItems = (category) => {
-    if (category === 'all') {
+    if (category === 'Todos') {
       setMenuItems(items);
       return;
     }
